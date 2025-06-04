@@ -32,7 +32,7 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/personal-portfolio.git
+   git clone https://github.com/NomanSiddiqui0000/Personal-Portfolio-Website.git
    ```
 
 2. Open the `index.html` file in your browser to view the website.
