@@ -88,8 +88,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Check for saved theme preference, default to dark theme if none saved
     const currentTheme = localStorage.getItem('theme') || 'dark-theme';
-    body.classList.add(currentTheme);
+    body.className = currentTheme; // Set the theme class
     updateThemeIcon(currentTheme === 'dark-theme');
+    
+    // Add theme transition effect
+    body.style.transition = 'all 0.3s ease';
+    
+    // Initialize with our new beautiful theme
+    console.log('Theme loaded:', currentTheme);
 
     // Toggle theme with enhanced animation
     themeToggle.addEventListener('click', function() {
